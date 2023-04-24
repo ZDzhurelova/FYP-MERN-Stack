@@ -4,12 +4,12 @@ import dotenv from "dotenv";
 dotenv.config();
 // require("dotenv").config();
 // import dbConfig from "../config/dbConfig";
-// app.use(express.json());
-// // const userRoute = require("./routes/userRoute");
-// // const adminRoute = require("./routes/adminRoute");
+app.use(express.json());
+// const userRoute = require("./routes/userRoute");
+// const adminRoute = require("./routes/adminRoute");
 // // const contractorsRoute = require("./routes/contractorsRoute");
 // const path = require("path");
-// import mongoose from "mongoose";
+import mongoose from "mongoose";
 
 
 // app.use("/api/user", userRoute);
